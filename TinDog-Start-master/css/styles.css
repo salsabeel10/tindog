@@ -1,0 +1,204 @@
+#title{
+  
+    background-color: #ff4c68;
+}
+
+.button-download{
+    margin: 5% 4% 5% 0;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.button-download1{
+    margin: 5% 4% 5% 0;
+    padding-left: 34px;
+    padding-right: 31px;
+}
+
+body{
+    font-family: "Montserrat";
+}
+
+
+
+
+
+.container-fluid{
+    padding: 3% 15% 7%;
+
+}
+
+h1{
+    font-family: 'Montserrat, sans-serif';  font-size:4rem;  line-height: 1.5;  font-weight: 900; color: white; 
+    font-weight: bold;
+}
+
+h2{
+    font-family: "Monteserrat-Bold";
+    font-weight: 900 ;
+}
+
+h3{
+    font-size: 1.7rem;
+    font-family: "Monteserrat-Bold";
+    font-weight: 900 ;
+}
+
+p{
+    color: #8f8f8f;
+    font-size: .9rem;
+}
+
+/* navbar */
+
+.navbar{
+    padding-top: 0;
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}
+
+.nav-item{
+    padding: 0 15px 18px;
+}
+
+.nav-link{
+    font-size: 1.5rem;
+    font-family: "Monteserrat-light";
+}
+
+/* image of dog */
+
+.img-phone{
+    position: absolute;
+    right: 20%;
+
+    width: 21%;
+    transform: rotate(18deg);
+}
+
+@media (max-width: 1200px)
+{
+    #title{
+        text-align: center;
+    }
+    .img-phone{
+        position: static;
+        transform: rotate(0);
+        width: 45%;
+    }
+}
+
+/* feature section */
+
+#features{
+    background-color: #ffff;
+    position: relative;    
+    
+    padding: 7% 15%;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.icon{
+    color: #ef8172;
+    padding-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+    
+}
+
+/*  Testimonials  */
+
+#testimonials{
+    font-family: "Monteserrat-Bold";
+    
+    text-align: center;
+    color: #ffff;
+    background-color: #ef8172;
+ 
+}
+
+.testimonial-text{
+    font-family: "Monteserrat-Bold";
+    font-size: 2.8rem;
+    line-height: 1.4;
+
+}
+
+.testimonial-img{
+    
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+
+}
+
+.carousel-item{
+    padding: 7% 15%;
+
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing-section */
+
+#pricing {
+    text-align: center;
+    padding: 100px;
+}
+
+.pricing-col{
+    padding: 3% 2%;
+
+}
+
+/* call action */
+
+#cta{
+    background-color: #ff4c68;
+    font-family: "Monteserrat-Black";
+    color: #ffff;
+    text-align: center;
+    padding: 7% 15%;
+
+}
+
+.cta-h{
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+    font-weight: 650;
+}
+
+/* footer section */
+
+#footer{
+    background-color: #ffff;
+    text-align: center;
+    
+    padding: 7% 15%;
+}
+
+.footer-icon{
+    margin: 20px 15px;
+    
+}
